@@ -7,7 +7,7 @@ export default function Document() {
 
   return (
     <Html lang={lang} dir={dir}>
-      <Head />
+      <Head title="Multi Language" />
       <body>
         <Main />
         <NextScript />

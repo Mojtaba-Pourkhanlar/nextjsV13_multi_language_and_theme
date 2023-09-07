@@ -6,8 +6,8 @@ export default function Product() {
   const productLang = {...lang.common};
   return (
     <>
-      <h5>{productLang.bio}</h5>
-      <h5>{productLang.wellcome}</h5>
+      <h2>{productLang.bio}</h2>
+      <h3>{productLang.wellcome}</h3>
     </>
   );
 }
