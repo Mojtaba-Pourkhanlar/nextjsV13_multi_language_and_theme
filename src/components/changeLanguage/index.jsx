@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { i18n } from "next-i18next";
 import { useRouter } from "next/router";
+import { ChangeTheme } from "../ChangeTheme";
 
 export default function ChangeLang() {
   const router = useRouter();
@@ -22,6 +23,11 @@ export default function ChangeLang() {
         <button onClick={() => switchLanguage("es")}>Switch to Spanish</button>
       </div>
       <button onClick={() => switchLanguage("en")}>Switch to English</button>
+      <div style={{ margin: "0 20px" }}>
+        <button>
+          <ChangeTheme />
+        </button>
+      </div>
     </div>
   );
 }
