@@ -1,7 +1,11 @@
-# Nextjs
+## Getting Started
 
-### yarn install or npm install
+First, run the development server:
 
-### yarn dev or npm run dev
-
-#### Detail project : nextjs vresion 13 , @reduxjs/toolkit , i18next
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
