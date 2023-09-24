@@ -1,0 +1,17 @@
+{
+  "navigation": {
+    "home": "صفحه اصلی",
+    "about": "در باره"
+  },
+  "page": {
+    "home": {
+      "landing": "صفحه اصلی",
+      "title": "به NextJs i18n خوش آمدید",
+      "description": "بین المللی سازی در روتر NextJs 13 App"
+    },
+    "about": {
+      "title": "درباره ما",
+      "description": "این صفحه درباره است"
+    }
+  }
+}
